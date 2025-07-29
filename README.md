@@ -1,9 +1,9 @@
 
-# Marpu NGO - Community Engagement Platform
+# Marpu - Community Engagement Platform
 ## Video Demonstration of the Project
 - https://youtu.be/vdtHkYny6l8
 
-Marpu NGO is a Next.js application designed to foster community engagement, manage events, facilitate donations, and coordinate volunteer efforts. It features a user-friendly interface for public users and a comprehensive admin dashboard for managing the platform's content and operations.
+Marpu is a Next.js application designed to foster community engagement, manage events, facilitate donations, and coordinate volunteer efforts. It features a user-friendly interface for public users and a comprehensive admin dashboard for managing the platform's content and operations.
 
 ## Features
 
@@ -55,7 +55,7 @@ Create a `.env` file in the root of your project by copying the `.env.example` f
 ```env
 # MongoDB
 MONGODB_URI="your_mongodb_connection_string"
-MONGODB_DB_NAME="your_database_name" # e.g., marpungo_db
+MONGODB_DB_NAME="your_database_name" # e.g., marpu_db
 
 # NextAuth
 AUTH_SECRET="your_random_strong_secret_for_nextauth" # Generate a strong secret
@@ -121,10 +121,10 @@ A `Dockerfile` and `.dockerignore` are provided to build and run the application
 From the project root:
 
 ```bash
-docker build -t marpu-ngo-app --build-arg NEXT_PUBLIC_APP_URL="http://localhost:3000" .
+docker build -t marpu-app --build-arg NEXT_PUBLIC_APP_URL="http://localhost:3000" .
 ```
 
-- Replace `marpu-ngo-app` with your desired image name if needed.
+- Replace `marpu-app` with your desired image name if needed.
 - The `--build-arg NEXT_PUBLIC_APP_URL` is important if your application relies on this variable during the build phase. For production, use your production URL.
 
 ### Run the Docker Container
@@ -137,7 +137,7 @@ docker run -p 3000:3000 \
   -e STRIPE_SECRET_KEY="your_stripe_secret_key" \
   -e NEXT_PUBLIC_STRIPE_GENERAL_DONATION_LINK="plink_your_stripe_payment_link_for_general_donations" \
   -e NEXT_PUBLIC_APP_URL="http://localhost:3000" \
-  marpu-ngo-app
+  marpu-app
 ```
 
 - Replace placeholder values with your actual environment variables.

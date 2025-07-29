@@ -7,9 +7,9 @@ export default function Footer() {
     <footer className="bg-secondary text-secondary-foreground">
       <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          {/* Column 1: Marpu NGO Info */}
+          {/* Column 1: Marpu Info */}
           <div>
-            <h3 className="text-lg font-headline font-semibold text-secondary-foreground mb-4">Marpu NGO</h3>
+            <h3 className="text-lg font-headline font-semibold text-secondary-foreground mb-4">Marpu</h3>
             <p className="text-sm text-secondary-foreground/90">
               Driving positive change and empowering communities. Join us in making a difference.
             </p>
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-secondary-foreground/70">
-            &copy; {new Date().getFullYear()} Marpu NGO. All rights reserved.
+            &copy; {new Date().getFullYear()} Marpu. All rights reserved.
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ services:
         NEXT_PUBLIC_STRIPE_PAYMENT_LINK_URL: ${NEXT_PUBLIC_STRIPE_PAYMENT_LINK_URL}
         NEXT_PUBLIC_STRIPE_GENERAL_DONATION_LINK: ${NEXT_PUBLIC_STRIPE_GENERAL_DONATION_LINK}
         AUTH_SECRET: ${AUTH_SECRET}
-    image: marpungo:latest  
+    image: marpu:latest  
     env_file:
       - .env.local
     ports:

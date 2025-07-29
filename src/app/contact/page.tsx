@@ -145,7 +145,7 @@ function ContactPageComponent() {
     <div className="container mx-auto px-4 py-12">
       <section className="text-center mb-12">
         <Mail size={48} className="text-primary mx-auto mb-4" />
-        <h1 className="text-5xl font-headline font-bold text-primary mb-4">Get In Touch With Marpu NGO</h1>
+        <h1 className="text-5xl font-headline font-bold text-primary mb-4">Get In Touch With Marpu</h1>
         <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
           We&apos;d love to hear from you! Whether you have a question about our projects, a suggestion for an event, or want to explore partnership opportunities, please feel free to reach out.
         </p>
@@ -240,7 +240,7 @@ function ContactPageComponent() {
               </div>
               <div className="flex items-center">
                 <Mail className="w-6 h-6 mr-3 text-accent flex-shrink-0" />
-                <a href="mailto:info@marpungo.org" className="hover:text-primary transition-colors">info@marpungo.org</a>
+                <a href="mailto:info@marpu.org" className="hover:text-primary transition-colors">info@marpu.org</a>
               </div>
               <div className="flex items-center">
                 <Phone className="w-6 h-6 mr-3 text-accent flex-shrink-0" />

@@ -127,14 +127,14 @@ export default function Home() {
           <div className="flex justify-center mb-6">
                  <Image
                             src="/logosvg.svg" // Assuming your logo is public/logo.png
-                            alt="Marpu NGO Logo"
-                            width={75} // Adjust width as needed
-                            height={75} // Adjust height as needed
+                            alt="Marpu Logo"
+                            width={275} // Adjust width as needed
+                            height={275} // Adjust height as needed
                             className="mr-2"
                           />
           </div>
           <h1 className="text-5xl font-headline font-bold text-primary mb-6">
-            Welcome to Marpu NGO
+            Welcome to Marpu
           </h1>
           <p className="text-xl text-foreground/80 mb-8 max-w-2xl mx-auto">
             Your central hub for creating positive impact and fostering community collaboration. Discover local events, find meaningful volunteer opportunities, and learn how you can contribute to a better world for all.

@@ -8,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Provider as AuthProvider } from "./provider"; // AuthProvider
 
 export const metadata: Metadata = {
-  title: 'Marpu NGO',
+  title: 'Marpu',
   description: 'Driving positive change and empowering communities.',
 };
 

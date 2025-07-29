@@ -58,12 +58,12 @@ export default function Header() {
             <Link href="/" className="flex items-center text-primary hover:text-primary/80 transition-colors">
               <Image
                 src="/logo.png" // Assuming your logo is public/logo.png
-                alt="Marpu NGO Logo"
+                alt="Marpu Logo"
                 width={28} // Adjust width as needed
                 height={28} // Adjust height as needed
                 className="mr-2"
               />
-              <span className="font-headline text-2xl font-bold">Marpu NGO</span>
+              <span className="font-headline text-2xl font-bold">Marpu</span>
             </Link>
           </div>
 
@@ -83,12 +83,12 @@ export default function Header() {
                     <Link href="/" className="flex items-center space-x-2 text-primary">
                       <Image
                         src="/logo.png"
-                        alt="Marpu NGO Logo"
+                        alt="Marpu Logo"
                         width={24}
                         height={24}
                         className="mr-2"
                       />
-                      <span className="font-headline text-xl font-bold">Marpu NGO</span>
+                      <span className="font-headline text-xl font-bold">Marpu</span>
                     </Link>
                   </SheetClose>
                 </SheetHeader>

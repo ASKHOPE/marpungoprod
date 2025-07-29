@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
         <ShieldCheck size={48} className="text-primary mx-auto mb-4" />
         <h1 className="text-5xl font-headline font-bold text-primary mb-4">Privacy Policy</h1>
         <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
-          Your privacy is important to us. This Privacy Policy explains how Marpu NGO collects, uses, discloses, and safeguards your information when you visit our website and use our services.
+          Your privacy is important to us. This Privacy Policy explains how Marpu collects, uses, discloses, and safeguards your information when you visit our website and use our services.
         </p>
         <p className="text-sm text-foreground/70 mt-2">
           Last Updated: {lastUpdated || 'Loading...'}
@@ -35,10 +35,10 @@ export default function PrivacyPolicyPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 text-foreground/80 text-justify">
-            <p>Welcome to Marpu NGO! We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@marpungo.org" className="text-accent hover:underline">privacy@marpungo.org</a>.</p>
+            <p>Welcome to Marpu! We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">privacy@marpu.org</a>.</p>
             <p>This privacy notice describes how we might use your information if you:
               <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
-                <li>Visit our website at marpungo.org</li>
+                <li>Visit our website at marpu.org</li>
                 <li>Engage with us in other related ways, including any sales, marketing, or events</li>
               </ul>
             </p>
@@ -129,7 +129,7 @@ export default function PrivacyPolicyPage() {
           <CardContent className="space-y-4 text-foreground/80 text-justify">
             <p>In some regions (like the European Economic Area and the United Kingdom), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information.</p>
             <p>If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please note however that this will not affect the lawfulness of the processing before its withdrawal, nor will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.</p>
-            <p>If you have questions or comments about your privacy rights, you may email us at <a href="mailto:privacy@marpungo.org" className="text-accent hover:underline">privacy@marpungo.org</a>.</p>
+            <p>If you have questions or comments about your privacy rights, you may email us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">privacy@marpu.org</a>.</p>
           </CardContent>
         </Card>
 
@@ -153,8 +153,8 @@ export default function PrivacyPolicyPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="text-foreground/80 text-justify space-y-2">
-            <p>If you have questions or comments about this notice, you may email us at <a href="mailto:privacy@marpungo.org" className="text-accent hover:underline">privacy@marpungo.org</a> or by post to:</p>
-            <p className="font-medium">Marpu NGO Privacy Officer</p>
+            <p>If you have questions or comments about this notice, you may email us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">privacy@marpu.org</a> or by post to:</p>
+            <p className="font-medium">Marpu Privacy Officer</p>
             <p>123 Change St, Progress City, Nation 12345</p>
             <p>You can also <Link href="/contact" className="text-accent hover:underline">contact us through our general contact form</Link> for any inquiries.</p>
           </CardContent>

@@ -100,19 +100,19 @@ export async function POST(request: Request) {
         const stripeProduct = await stripe.products.create({
             name: savedProject.title,
             description: savedProject.description,
-            metadata: { marpungoProjectId: savedProject._id.toString(), marpungoProjectSlug: savedProject.slug },
+            metadata: { marpuProjectId: savedProject._id.toString(), marpuProjectSlug: savedProject.slug },
         });
         stripeProductId = stripeProduct.id;
 
         const stripePrice = await stripe.prices.create({
             product: stripeProductId, currency: 'usd', custom_unit_amount: { enabled: true, minimum: 1000 }, // Minimum $10.00
-            metadata: { marpungoProjectId: savedProject._id.toString() },
+            metadata: { marpuProjectId: savedProject._id.toString() },
         });
         stripePriceId = stripePrice.id;
 
         const paymentLinkParams: Stripe.PaymentLinkCreateParams = {
             line_items: [{ price: stripePriceId, quantity: 1 }],
-            metadata: { marpungoProjectId: savedProject._id.toString() },
+            metadata: { marpuProjectId: savedProject._id.toString() },
         };
 
         if (successUrl) {

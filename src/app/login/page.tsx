@@ -91,7 +91,7 @@ function LoginPageContent() {
       <Card className="w-full max-w-md shadow-xl">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-headline text-primary">Sign In</CardTitle>
-          <CardDescription>Access your Marpu NGO account.</CardDescription>
+          <CardDescription>Access your Marpu account.</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -151,7 +151,7 @@ function LoginPageLoadingSkeleton() {
       <Card className="w-full max-w-md shadow-xl opacity-50">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-headline text-primary">Sign In</CardTitle>
-          <CardDescription>Access your Marpu NGO account.</CardDescription>
+          <CardDescription>Access your Marpu account.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="h-10 bg-muted rounded-md animate-pulse"></div>

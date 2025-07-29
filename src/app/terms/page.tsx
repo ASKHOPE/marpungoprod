@@ -43,8 +43,8 @@ export default function TermsPage() {
               <h2 className="text-xl font-semibold text-primary mb-2">Definitions</h2>
               <p>For the purposes of these Terms and Conditions:</p>
               <ul className="list-disc list-inside space-y-2 mt-2 pl-4">
-                <li><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named Marpu NGO, and the website accessible from marpungo.org.</li>
-                <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Marpu NGO, 123 Change St, Progress City, Nation 12345.</li>
+                <li><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named Marpu, and the website accessible from marpu.org.</li>
+                <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Marpu, 123 Change St, Progress City, Nation 12345.</li>
                 <li><strong>Content</strong> refers to content such as text, images, or other information that can be posted, uploaded, linked to or otherwise made available by You, regardless of the form of that content.</li>
                 <li><strong>Country</strong> refers to: [Your Country/Jurisdiction of Operation].</li>
                 <li><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
@@ -137,8 +137,8 @@ export default function TermsPage() {
           <CardContent className="text-foreground/80 text-justify">
             <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
             <ul className="list-disc list-inside space-y-1 mt-2 pl-4">
-              <li>By email: <a href="mailto:terms@marpungo.org" className="text-accent hover:underline">terms@marpungo.org</a></li>
-              <li>By visiting this page on our website: <Link href="/contact" className="text-accent hover:underline">marpungo.org/contact</Link></li>
+              <li>By email: <a href="mailto:terms@marpu.org" className="text-accent hover:underline">terms@marpu.org</a></li>
+              <li>By visiting this page on our website: <Link href="/contact" className="text-accent hover:underline">marpu.org/contact</Link></li>
               <li>By mail: 123 Change St, Progress City, Nation 12345, Attn: Legal Department</li>
             </ul>
           </CardContent>

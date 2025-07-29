@@ -60,7 +60,7 @@ export default function VolunteerPage() {
     <div className="container mx-auto px-4 py-12">
       <section className="text-center mb-12">
         <HandHeart className="w-16 h-16 text-accent mx-auto mb-6" />
-        <h1 className="text-5xl font-headline font-bold text-primary mb-4">Volunteer With Marpu NGO</h1>
+        <h1 className="text-5xl font-headline font-bold text-primary mb-4">Volunteer With Marpu</h1>
         <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
           Your time, skills, and passion are invaluable to us. Join our vibrant community of dedicated volunteers and make a tangible, positive impact on the environment and our local communities.
         </p>
@@ -114,7 +114,7 @@ export default function VolunteerPage() {
       )}
 
       <section className="bg-primary/10 p-8 rounded-lg shadow-md text-center">
-        <h2 className="text-2xl font-headline font-semibold text-primary mb-4">Why Volunteer With Marpu NGO?</h2>
+        <h2 className="text-2xl font-headline font-semibold text-primary mb-4">Why Volunteer With Marpu?</h2>
         <div className="grid md:grid-cols-3 gap-6 text-foreground/80 mb-6">
           <div className="p-4">
             <Users className="w-10 h-10 text-accent mx-auto mb-2" />
