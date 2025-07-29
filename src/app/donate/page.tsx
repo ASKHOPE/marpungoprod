@@ -221,7 +221,7 @@ export default function DonatePage() {
             <div className="md:w-2/3 flex flex-col">
               <CardTitle className="text-2xl font-headline text-primary mb-2 md:mb-4">Support Our Overall Mission</CardTitle>
               <CardDescription className="text-foreground/70 mb-4 md:mb-6 text-base flex-grow">
-                Your general donation allows us to direct funds where they are most needed—supporting our core operations, responding to urgent environmental challenges, launching new initiatives, and ensuring the sustainability of Marpu itself. Every contribution helps us stay agile and effective in our mission to foster a greener planet.
+                Your general donation allows us to direct funds where they are most needed—supporting our core operations, responding to urgent environmental challenges, launching new initiatives, and ensuring the sustainability of MARPU itself. Every contribution helps us stay agile and effective in our mission to foster a greener planet.
               </CardDescription>
               <div className="mt-auto">
                 {generalDonationLink ? (
@@ -278,7 +278,7 @@ export default function DonatePage() {
       </section>
 
        <section className="bg-secondary py-12 rounded-lg shadow-md text-center">
-        <h2 className="text-2xl font-headline font-semibold text-primary mb-4">Other Ways to Support Marpu</h2>
+        <h2 className="text-2xl font-headline font-semibold text-primary mb-4">Other Ways to Support MARPU</h2>
         <p className="text-foreground/80 mb-6 max-w-lg mx-auto">
           Beyond direct financial donations, you can also support our mission by volunteering your time and skills, organizing a fundraiser, or exploring corporate partnership opportunities. Every contribution helps!
         </p>

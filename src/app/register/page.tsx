@@ -65,7 +65,7 @@ export default function RegisterPage() {
       <Card className="w-full max-w-md shadow-xl">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-headline text-primary">Create an Account</CardTitle>
-          <CardDescription>Join Marpu community.</CardDescription>
+          <CardDescription>Join MARPU community.</CardDescription>
         </CardHeader>
         <CardContent>
           <form ref={ref} action={handleSubmit} className="space-y-6">

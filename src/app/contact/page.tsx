@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Mail, Phone, MapPin, Send, Loader2, AlertTriangle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Loader2, AlertTriangle, StampIcon } from 'lucide-react';
 import {
   Select,
   SelectContent,
@@ -145,7 +145,7 @@ function ContactPageComponent() {
     <div className="container mx-auto px-4 py-12">
       <section className="text-center mb-12">
         <Mail size={48} className="text-primary mx-auto mb-4" />
-        <h1 className="text-5xl font-headline font-bold text-primary mb-4">Get In Touch With Marpu</h1>
+        <h1 className="text-5xl font-headline font-bold text-primary mb-4">Get In Touch With MARPU</h1>
         <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
           We&apos;d love to hear from you! Whether you have a question about our projects, a suggestion for an event, or want to explore partnership opportunities, please feel free to reach out.
         </p>
@@ -235,17 +235,22 @@ function ContactPageComponent() {
             </CardHeader>
             <CardContent className="space-y-4 text-foreground/80">
               <div className="flex items-center">
+                <StampIcon className="w-6 h-6 mr-3 text-accent flex-shrink-0" />
+                President and Administrator - Undurthi John Kumar
+              </div>
+                <div className="flex items-center">
                 <MapPin className="w-6 h-6 mr-3 text-accent flex-shrink-0" />
-                <span>123 Change St, Progress City, Nation 12345</span>
+                <span>East Godavari District,Andhra Pradesh,India</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-6 h-6 mr-3 text-accent flex-shrink-0" />
-                <a href="mailto:info@marpu.org" className="hover:text-primary transition-colors">info@marpu.org</a>
+                <a href="mailto:info@marpu.org" className="hover:text-primary transition-colors">donate@marpu.ngo</a>
               </div>
               <div className="flex items-center">
                 <Phone className="w-6 h-6 mr-3 text-accent flex-shrink-0" />
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">(123) 456-7890</a>
+                <a href="tel:+1234567890" className="hover:text-primary transition-colors">+918822669988</a>
               </div>
+            
             </CardContent>
           </Card>
 

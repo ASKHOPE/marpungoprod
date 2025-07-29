@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
         <ShieldCheck size={48} className="text-primary mx-auto mb-4" />
         <h1 className="text-5xl font-headline font-bold text-primary mb-4">Privacy Policy</h1>
         <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
-          Your privacy is important to us. This Privacy Policy explains how Marpu collects, uses, discloses, and safeguards your information when you visit our website and use our services.
+          Your privacy is important to us. This Privacy Policy explains how MARPU collects, uses, discloses, and safeguards your information when you visit our website and use our services.
         </p>
         <p className="text-sm text-foreground/70 mt-2">
           Last Updated: {lastUpdated || 'Loading...'}
@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 text-foreground/80 text-justify">
-            <p>Welcome to Marpu! We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">privacy@marpu.org</a>.</p>
+            <p>Welcome to MARPU! We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">privacy@marpu.org</a>.</p>
             <p>This privacy notice describes how we might use your information if you:
               <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
                 <li>Visit our website at marpu.org</li>
@@ -153,9 +153,9 @@ export default function PrivacyPolicyPage() {
             </CardTitle>
           </CardHeader>
           <CardContent className="text-foreground/80 text-justify space-y-2">
-            <p>If you have questions or comments about this notice, you may email us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">privacy@marpu.org</a> or by post to:</p>
-            <p className="font-medium">Marpu Privacy Officer</p>
-            <p>123 Change St, Progress City, Nation 12345</p>
+            <p>If you have questions or comments about this notice, you may email us at <a href="mailto:privacy@marpu.org" className="text-accent hover:underline">donate@marpu.ngo</a> or by post to:</p>
+            <p className="font-medium">MARPU Privacy Officer</p>
+            <p>East Godavari District,Andhra Pradesh,India</p>
             <p>You can also <Link href="/contact" className="text-accent hover:underline">contact us through our general contact form</Link> for any inquiries.</p>
           </CardContent>
         </Card>

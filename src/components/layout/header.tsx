@@ -63,7 +63,7 @@ export default function Header() {
                 height={28} // Adjust height as needed
                 className="mr-2"
               />
-              <span className="font-headline text-2xl font-bold">Marpu</span>
+              <span className="font-headline text-2xl font-bold">MARPU</span>
             </Link>
           </div>
 

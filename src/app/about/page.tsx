@@ -7,9 +7,9 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <section className="text-center mb-16">
-        <h1 className="text-5xl font-headline font-bold text-primary mb-4">About Marpu</h1>
+        <h1 className="text-5xl font-headline font-bold text-primary mb-4">About MARPU</h1>
         <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-          Marpu is passionately dedicated to fostering a vibrant global community committed to positive social impact, education, and collective, meaningful action.
+          MARPU is passionately dedicated to fostering a vibrant global community committed to positive social impact, education, and collective, meaningful action.
         </p>
       </section>
 
@@ -68,13 +68,13 @@ export default function AboutPage() {
           <h2 className="text-3xl font-headline font-semibold text-primary mb-6 text-center">Our Story</h2>
           <div className="max-w-2xl mx-auto text-foreground/80 space-y-4 text-justify">
             <p>
-              Marpu was founded with a simple yet profound vision: to make impactful social action accessible, engaging, and effective for everyone. We observed a world brimming with passionate individuals eager to make a difference, yet often lacking the necessary connections, resources, or clear pathways to do so effectively.
+              MARPU was founded with a simple yet profound vision: to make impactful social action accessible, engaging, and effective for everyone. We observed a world brimming with passionate individuals eager to make a difference, yet often lacking the necessary connections, resources, or clear pathways to do so effectively.
             </p>
             <p>
               Our platform was born out of a deep-seated desire to bridge this gap. We strive to be the central, dynamic hub where conscious citizens, grassroots local groups, and larger organizations can find each other, share innovative ideas, and collaborate on projects that actively uplift, support, and restore our communities.
             </p>
             <p>
-              From local support drives and ambitious development initiatives to comprehensive educational workshops and vital advocacy campaigns, Marpu provides the essential tools, robust support, and collaborative network needed to turn individual passion into palpable, collective impact. Join us on this vital journey to build a more equitable, compassionate, and resilient world—one connection, one action, one community at a time.
+              From local support drives and ambitious development initiatives to comprehensive educational workshops and vital advocacy campaigns, MARPU provides the essential tools, robust support, and collaborative network needed to turn individual passion into palpable, collective impact. Join us on this vital journey to build a more equitable, compassionate, and resilient world—one connection, one action, one community at a time.
             </p>
           </div>
         </div>

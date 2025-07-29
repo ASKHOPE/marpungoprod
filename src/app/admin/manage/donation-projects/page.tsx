@@ -300,7 +300,7 @@ function ManageDonationProjectsPageComponent() {
                               <p>This action cannot be undone. This will:</p>
                               <ul className="list-disc list-inside text-sm text-left pl-4 space-y-1">
                                 <li>Attempt to archive the project's Product and Price, and deactivate its Payment Link in Stripe.</li>
-                                <li>Permanently delete the project "{project.title}" from the Marpu database.</li>
+                                <li>Permanently delete the project "{project.title}" from the MARPU database.</li>
                                 <li>Remove the project from being publicly visible on the website.</li>
                               </ul>
                               <p className="pt-2">Please confirm you understand these consequences.</p>
