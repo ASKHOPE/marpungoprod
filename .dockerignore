@@ -1,0 +1,58 @@
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Node modules - these are installed during the Docker build
+node_modules
+
+# Next.js build output - this is generated during the Docker build
+.next
+
+# Development environment files
+.env
+.env*.local
+.env.development
+.env.test
+
+# VSCode specific
+.vscode
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test reports
+coverage
+junit.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# README and other markdown docs (unless needed in image)
+README.md
+CONTRIBUTING.md
+CHANGELOG.md
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Development scripts and specific dev files within src
+# Ensure these are not required by `npm run build`
+# src/scripts/
+
+
+# Common testing folders and configurations
+**/__tests__/
+**/__mocks__/
+jest.config.*
+playwright.config.*
+cypress.config.*
+cypress/

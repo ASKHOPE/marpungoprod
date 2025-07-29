@@ -1,0 +1,108 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 56% 91%; /* Light Beige #F5F5DC */
+    --foreground: 0 0% 20%; /* Dark Gray #333333 */
+
+    --card: 60 56% 91%; /* Light Beige #F5F5DC */
+    --card-foreground: 0 0% 20%; /* Dark Gray #333333 */
+
+    --popover: 60 56% 91%; /* Light Beige #F5F5DC */
+    --popover-foreground: 0 0% 20%; /* Dark Gray #333333 */
+
+    --primary: 136 29% 30%; /* Forest Green #386641 */
+    --primary-foreground: 60 43% 96%; /* Light Off-white #F8F8F0 */
+
+    --secondary: 60 30% 85%; /* Darker Beige */
+    --secondary-foreground: 0 0% 20%; /* Dark Gray #333333 */
+
+    --muted: 60 40% 88%; /* Lighter Beige */
+    --muted-foreground: 0 0% 40%; /* Medium Gray */
+
+    --accent: 26 80% 52%; /* Vibrant Orange #E77E22 */
+    --accent-foreground: 0 0% 98%; /* Off-white for text on accent */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 60 30% 80%; /* Light Grayish Beige */
+    --input: 60 30% 80%; /* Light Grayish Beige */
+    --ring: 26 80% 52%; /* Vibrant Orange #E77E22 */
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+
+    /* Sidebar variables - kept for consistency, can be customized if sidebar is used */
+    --sidebar-background: 60 50% 88%; /* Lighter Beige for sidebar */
+    --sidebar-foreground: 136 29% 30%; /* Forest Green for sidebar text */
+    --sidebar-primary: 136 29% 30%; /* Forest Green */
+    --sidebar-primary-foreground: 60 43% 96%; /* Light Off-white */
+    --sidebar-accent: 26 80% 52%; /* Vibrant Orange */
+    --sidebar-accent-foreground: 0 0% 98%; /* Off-white */
+    --sidebar-border: 60 30% 80%;
+    --sidebar-ring: 26 80% 52%;
+  }
+
+  .dark {
+    --background: 120 10% 15%; /* Dark Greenish Grey */
+    --foreground: 60 50% 85%; /* Light Beige */
+
+    --card: 120 10% 20%; /* Slightly Lighter Dark Greenish Grey */
+    --card-foreground: 60 50% 85%; /* Light Beige */
+
+    --popover: 120 10% 20%;
+    --popover-foreground: 60 50% 85%;
+
+    --primary: 136 29% 40%; /* Slightly lighter Forest Green for dark mode */
+    --primary-foreground: 60 43% 96%; 
+
+    --secondary: 120 10% 25%; /* Darker shade for secondary elements */
+    --secondary-foreground: 60 50% 85%;
+
+    --muted: 120 10% 22%;
+    --muted-foreground: 60 50% 70%; /* Lighter muted text */
+
+    --accent: 26 80% 62%; /* Lighter Vibrant Orange for dark mode */
+    --accent-foreground: 0 0% 10%; /* Dark text on lighter orange accent */
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 120 10% 25%;
+    --input: 120 10% 25%;
+    --ring: 26 80% 62%; /* Lighter Vibrant Orange for dark mode ring */
+
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    /* Sidebar variables for dark mode */
+    --sidebar-background: 120 10% 12%; /* Very Dark Greenish Grey for sidebar */
+    --sidebar-foreground: 60 50% 85%; /* Light Beige for sidebar text */
+    --sidebar-primary: 136 29% 40%;
+    --sidebar-primary-foreground: 60 43% 96%;
+    --sidebar-accent: 26 80% 62%; /* Lighter Vibrant Orange */
+    --sidebar-accent-foreground: 0 0% 10%; /* Dark text */
+    --sidebar-border: 120 10% 25%;
+    --sidebar-ring: 26 80% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
