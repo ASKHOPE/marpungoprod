@@ -19,18 +19,18 @@ export default function Footer() {
           <div>
             <h3 className="text-md font-headline font-semibold text-secondary-foreground mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/yourngo" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-secondary-foreground/80 hover:text-accent transition-colors">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-secondary-foreground/80 hover:text-accent transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="https://twitter.com/yourngo" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-secondary-foreground/80 hover:text-accent transition-colors">
+              {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-secondary-foreground/80 hover:text-accent transition-colors">
                 <Twitter size={20} />
-              </a>
-              <a href="https://instagram.com/yourngo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-secondary-foreground/80 hover:text-accent transition-colors">
+              </a> */}
+              <a href="https://www.instagram.com/marpu_the_change?igsh=bXZramw1b3JrZnho&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-secondary-foreground/80 hover:text-accent transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com/company/yourngo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-secondary-foreground/80 hover:text-accent transition-colors">
+              {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-secondary-foreground/80 hover:text-accent transition-colors">
                 <Linkedin size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
